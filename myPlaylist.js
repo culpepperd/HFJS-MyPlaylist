@@ -14,5 +14,14 @@ function addSongs() {
     song2.innerHTML = "Great Objects on Fire, by Jerry JSON Lewis";
     song3.innerHTML = "I Code the Line, by Johnny JavaScript";
     song4.innerHTML = favSong + ", by " + favArtist;
+
+    var colorText = song1.getAttribute("class");
+    if (colorText == null) {
+        console.log("Hmm, this is returning " + colorText);
+    } else {
+        console.log("The color of song1 is: " + colorText);
+    }
+    
+    
 }
 window.onload = addSongs;
