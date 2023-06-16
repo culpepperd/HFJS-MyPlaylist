@@ -1,6 +1,6 @@
 function addSongs() {
     var favSong = prompt("What's your favorite song?"); // user inputs favorite song
-    var favArtist = prompt("And your favorite artist?");
+    var favArtist = prompt("And your favorite artist?"); // user inputs favorite artist
     var favColor = prompt("Pick a color: Red, Blue, Green, Purple, Yellow, Orange, Blood Orange or Pink.");
     var song1 = document.getElementById("song1");
     song1.setAttribute("class", "redtext");
